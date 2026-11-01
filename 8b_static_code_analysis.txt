@@ -1,0 +1,25 @@
+theia@theiadocker-ashwinsunda2:/home/project/final_project$ pylint server.py
+************* Module server
+server.py:22:0: C0301: Line too long (187/100) (line-too-long)
+server.py:23:0: C0303: Trailing whitespace (trailing-whitespace)
+server.py:30:0: C0304: Final newline missing (missing-final-newline)
+server.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+server.py:7:0: C0116: Missing function or method docstring (missing-function-docstring)
+server.py:19:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+server.py:15:4: W0612: Unused variable 'joy' (unused-variable)
+server.py:25:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+-----------------------------------
+Your code has been rated at 5.79/10
+
+theia@theiadocker-ashwinsunda2:/home/project/final_project$ pylint server.py
+************* Module server
+server.py:46:0: C0304: Final newline missing (missing-final-newline)
+
+------------------------------------------------------------------
+Your code has been rated at 9.47/10 (previous run: 5.79/10, +3.68)
+
+theia@theiadocker-ashwinsunda2:/home/project/final_project$ pylint server.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.47/10, +0.53)
